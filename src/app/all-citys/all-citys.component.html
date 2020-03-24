@@ -1,0 +1,11 @@
+<div>
+    <div *ngFor="let city of citys" class="content">
+        <div class="align">
+        <img src="https://openweathermap.org/img/wn/{{city.img}}@2x.png" />
+    </div>
+        <span>City name: {{city.name}}</span>
+        <span>Country: {{city.country}}</span>
+        <span>Description: {{city.description}}</span>
+        <span>Temp: {{city.temp}}</span>
+    </div>
+</div>

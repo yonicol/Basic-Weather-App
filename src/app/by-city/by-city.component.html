@@ -1,0 +1,14 @@
+<div class="align">
+    <label>Select city: <select (change)="showbycity(cityname.value)" #cityname>
+        <option *ngFor="let city of citys" value="{{city.name}}">{{city.name}}</option>
+    </select></label>
+    <div *ngIf="showcity" class="content">
+        <div class="align">
+            <img src="https://openweathermap.org/img/wn/{{bycity.img}}@2x.png" />
+        </div>
+        <span>City name: {{bycity.name}}</span>
+        <span>Country: {{bycity.country}}</span>
+        <span>Description: {{bycity.description}}</span>
+        <span>Temp: {{bycity.temp}}</span>
+    </div>
+</div>

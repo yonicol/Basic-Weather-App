@@ -1,0 +1,19 @@
+label{
+    display: block;
+    margin: 10px;
+}
+span{
+    display: block;
+    font-weight: bold;
+}
+.content{
+    border: black solid 2px;
+    display: inline-block;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+}
+.align{
+    text-align: center;
+}
